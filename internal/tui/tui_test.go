@@ -8,9 +8,9 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/x/ansi"
 
-	"starter-upper/internal/check"
-	"starter-upper/internal/items"
-	"starter-upper/internal/scan"
+	"github.com/masto/starter-upper/internal/check"
+	"github.com/masto/starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/scan"
 )
 
 func testModel(t *testing.T) Model {

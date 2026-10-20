@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/items"
 )
 
 // Step is one command. Root steps run through `sudo -n`, so the caller must

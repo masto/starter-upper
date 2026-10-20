@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/items"
 )
 
 // Config says where to look. Fields are overridable for tests.

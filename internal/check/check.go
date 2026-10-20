@@ -10,7 +10,7 @@ import (
 	"strings"
 	"syscall"
 
-	"starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/items"
 )
 
 // Env carries what the checks need beyond the items themselves.

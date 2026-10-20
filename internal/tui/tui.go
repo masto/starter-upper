@@ -14,10 +14,10 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 
-	"starter-upper/internal/action"
-	"starter-upper/internal/check"
-	"starter-upper/internal/items"
-	"starter-upper/internal/scan"
+	"github.com/masto/starter-upper/internal/action"
+	"github.com/masto/starter-upper/internal/check"
+	"github.com/masto/starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/scan"
 )
 
 const loginItemsSettings = "x-apple.systempreferences:com.apple.LoginItems-Settings.extension"

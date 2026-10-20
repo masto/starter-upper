@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/items"
 )
 
 const btmFixture = `========================

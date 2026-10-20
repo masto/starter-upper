@@ -9,7 +9,7 @@ import (
 
 	"howett.net/plist"
 
-	"starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/items"
 )
 
 // ParseSystemExtensions parses `systemextensionsctl list`.

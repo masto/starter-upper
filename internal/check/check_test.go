@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/items"
 )
 
 func codes(it items.Item) map[string]bool {

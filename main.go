@@ -12,10 +12,10 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"starter-upper/internal/check"
-	"starter-upper/internal/items"
-	"starter-upper/internal/scan"
-	"starter-upper/internal/tui"
+	"github.com/masto/starter-upper/internal/check"
+	"github.com/masto/starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/scan"
+	"github.com/masto/starter-upper/internal/tui"
 )
 
 func main() {

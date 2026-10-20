@@ -8,7 +8,7 @@ import (
 
 	"howett.net/plist"
 
-	"starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/items"
 )
 
 const loginItemsJXA = `JSON.stringify(Application("System Events").loginItems().map(i => ({name: i.name(), path: i.path(), hidden: i.hidden()})))`

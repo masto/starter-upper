@@ -1,4 +1,4 @@
-module starter-upper
+module github.com/masto/starter-upper
 
 go 1.27.1
 

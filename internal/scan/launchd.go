@@ -8,7 +8,7 @@ import (
 
 	"howett.net/plist"
 
-	"starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/items"
 )
 
 // launchdPlist is the subset of a launchd job definition the tool looks at.

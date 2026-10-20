@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/items"
 )
 
 func argvs(p *Plan) []string {

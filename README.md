@@ -3,10 +3,12 @@
 A terminal browser for everything that starts automatically on macOS. It flags leftovers and risky items, and can disable or delete them.
 
 ```
-go build -o starter-upper .
-./starter-upper            # interactive browser
-./starter-upper report     # plain-text list of everything and its findings
+go install github.com/masto/starter-upper@latest
+starter-upper              # interactive browser
+starter-upper report       # plain-text list of everything and its findings
 ```
+
+Requires macOS and Go 1.27 or later.
 
 ## Where it looks
 
@@ -62,3 +64,7 @@ Every action shows the exact commands it will run and waits for `y`.
 - **Read-only items:** app helpers, background records and system extensions can only be changed by their app or by System Settings. `s` opens the Login Items & Extensions pane.
 
 Changes to system items run `sudo -n` after the TUI is suspended to run `sudo -v`. Sudo only asks for your password when its timestamp has expired.
+
+## License
+
+MIT. See [LICENSE](LICENSE).

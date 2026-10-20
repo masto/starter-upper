@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"starter-upper/internal/items"
+	"github.com/masto/starter-upper/internal/items"
 )
 
 // cronPlan rewrites the current crontab, applying edit to each line. edit
